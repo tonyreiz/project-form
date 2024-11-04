@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <h1>Formulário de Contatos</h1>
+
+    <p>Preencha os dados abaixo e envie uma mensagem de contato</p>
+
+    <form action="#">
+
+        <fieldset>
+            <legend> Dados do Contato</legend>
+
+            <div>
+                <label for="nome">Nome: </label>
+                <input type="nome" required> 
+            </div>
+
+            <div>
+                <label for="data">Data De Nascimento</label>
+                <input type="date">
+
+            </div>
+
+            <div>
+                <label for="">Sexo:</label><br>
+
+                <input type="radio" name="sexo">
+                <label for="sexo">masculino</label>
+
+
+                <input type="radio" name="sexo">
+
+                <label for="sexo">Feminino
+                </label>
+
+
+            </div>
+
+            <div>
+                <label for="endereco">Endereço: </label>
+                <input type="nome">
+
+            </div>
+
+            <div>
+
+                <label for="estado">Estado</label>
+
+                <select>
+                    <option value="">selecione</option>
+                    <option value="">SP</option>
+                    <option value="">RJ</option>
+                    <option value="">MG</option>
+                </select>
+
+
+            </div>
+
+            <div>
+                <label for="cidade">Cidade</label>
+
+                <select>
+                    <option value="">Selecione</option>
+                    <option value="">Arujá</option>
+                    <option value="">Angra dos Reis</option>
+                    <option value="">Acaiaca</option>
+
+
+                </select>
+
+            </div>
+
+            <div>
+                <label for="celular">Celular: </label>
+                <input type="tel" placeholder="(##)XXXXX-XXXX">
+
+            </div>
+
+            <div>
+                <label for="email">E-mail: </label>
+                <input type="email" required>
+            </div>
+
+            <div>
+
+                <label for="areas">Áreas De Interesse:</label>
+
+                <input type="checkbox">
+                <label for="">HTML</label>
+
+                <input type="checkbox">
+                <label for="">CSS</label>
+
+                <input type="checkbox">
+                <label for="">Java-Script</label>
+
+            </div>
+
+
+            <div>
+
+                <label for="textarea">Mensagem:</label>
+
+                <textarea cols="40" rows="10" placeholder="Digite uma mensagem..."></textarea>
+
+
+            </div>
+
+<br>
+
+            <div>
+                <input type="submit">
+
+            </div>
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
